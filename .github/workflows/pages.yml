@@ -28,7 +28,7 @@ jobs:
       - name: Prepare source
         run: |
           npm install hexo-renderer-ejs hexo-renderer-dartsass --save
-          git clone -b master https://github.com/codesigner-ui/codesigner-ui.github.io.git themes/even
+          git clone -b master https://github.com/codesigner-ui/blogs.git themes/even
           cp themes/even/_config.yml.example themes/even/_config.yml
       - name: Install Dependencies
         run: npm install
